@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    font-family: "IBM Plex Mono", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color:#adff2f
+}
+
+body {
+  background-image: url("../public/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.canvas{
+  width:40vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas-container,.wrapper{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+ .grid-1 th{
+  font-size: 1.5rem;
+}
+
+ .grid-1 td{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.grid-1 th,.grid-1 td{
+  padding: 0px 10px;
+  text-align: center;
+}
+
+.row{
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap:120px;
+}
+
+td{
+  padding: 5px 10px;
+  align-items: center;
+}
+
+.ax td{
+  width: 80px;
+}
+
+.grid-1 td{
+  width: 100px;
+}
